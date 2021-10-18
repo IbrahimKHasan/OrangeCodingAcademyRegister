@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Academy by Orange - Register</title>
+    <link rel="stylesheet" href="css/boosted.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+    <div class="d-flex bd-highlight">
+        <div class="p-0 flex-fill bd-highlight w-50 h-auto mb-2" id="sideimage">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/first.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/second.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div id="account">
+        <div class="p-0 flex-fill bd-highlight w-75" id="side">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">
+                    <img id="orange" src="img/orange.PNG" width="90" height="50" role="img" alt="Boosted" loading="lazy">
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto" id="help">
+                      <a class="nav-link" href="#">Help</a>
+                      <a class="nav-link" href="#">Terms & Conditions</a>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+        </div>
+        <hr>
+        <h1>Creat an account</h1>
+        <form id="form">
+            <div class="mb-3">
+              <label for="exampleInputEmail" class="form-label">Email address <span id="star">*</span></label>
+              <input  class="form-control" id="exampleInputEmail" aria-describedby="emailHelp">
+              <div id="emailM"></div>
+              <div id="emailHelp" class="form-text">eg: username@domain.com</div>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputEmail" class="form-label">Mobile <span id="star">*</span></label>
+                <input type="text" class="form-control" id="exampleInputText" aria-describedby="emailHelp">
+                <div id="mobM"></div>
+                <div id="emailHelp" class="form-text">eg: 077********</div>
+              </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword" class="form-label">Create Password <span id="star">*</span></label>
+              <input type="password" class="form-control" id="exampleInputPassword">
+              <div id="passM"></div>
+              <div id="emailHelp" class="form-text">The password must be (6-8) characters, at least one letter, one number and one special character.</div>
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck">
+              <label class="form-check-label" for="exampleCheck1">I agree to the terms & conditions Orange. <span id="star">*</span></label>
+              <div id="chM"></div>
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1" checked>
+                <label class="form-check-label" for="exampleCheck1">Receive Coding Academy Newsletter.</label>
+              </div>
+            <button type="button" class="btn btn-primary" id="sign">Sign Up</button>
+            <button type="submit" class="btn btn-primary" id="already">Already Have an Account?Login</button>
+          </form>
+    </div>
+      </div>
+    <script src="js/main.js"></script>
+    <script src="js/boosted.min.js"></script>
+</body>
+</html>

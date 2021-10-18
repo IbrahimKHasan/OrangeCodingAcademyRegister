@@ -1,0 +1,98 @@
+.navbar-light {
+  border-color: white !important;
+  background-color: white !important;
+}
+#account {
+  width: 100%;
+}
+h1 {
+  text-align: center;
+  margin-top: 25px;
+}
+#form {
+  width: 40%;
+  margin: auto;
+  margin-top: 20px;
+}
+.btn {
+  width: 100%;
+}
+.form-text {
+  font-size: small;
+}
+#star {
+  content: "*";
+  color: red;
+}
+#emailM {
+  font-weight: bolder;
+  color: red;
+  margin-top: 5px;
+  font-size: small;
+}
+#mobM {
+  font-weight: bolder;
+  color: red;
+  margin-top: 5px;
+  font-size: small;
+}
+#passM {
+  font-weight: bolder;
+  color: red;
+  margin-top: 5px;
+  font-size: small;
+}
+#chM {
+  font-weight: bolder;
+  color: red;
+  margin-top: 5px;
+  font-size: small;
+}
+#already {
+  background-color: white;
+  margin-top: 20px;
+  border-color: black;
+}
+#orange {
+  width: 200px;
+  margin-left: 50px;
+  transform: scale(1.3);
+}
+hr {
+  margin-top: 0px;
+}
+#help {
+  margin-right: -250px;
+}
+#side {
+  width: 100%;
+}
+@media (max-width: 790px) {
+  #sideimage {
+    display: none;
+  }
+  #orange {
+    height: 50px;
+  }
+ 
+}
+@media (max-width: 400px) {
+  #sideimage {
+    display: none;
+  }
+  #orange {
+    height: 50px;
+  }
+  #form {
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+    margin-right: 25%;
+  }
+  #account {
+    width: 100%;
+  }
+  h1 {
+margin-right: 10%;
+  }
+}
